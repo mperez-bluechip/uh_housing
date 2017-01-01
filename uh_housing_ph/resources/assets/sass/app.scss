@@ -1,9 +1,22 @@
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700);
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body {
+  $body-margin;
+  $body-padding;
+  $font-family;
+  $font-size-base;
+  $line-height-base;
+  $text-color;
+  $font-weight;
+}
+
+#page { max-width: 1200px; margin: 0 auto; position: relative;}

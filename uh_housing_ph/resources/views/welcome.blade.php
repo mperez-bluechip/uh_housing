@@ -65,6 +65,7 @@
         </style>
     </head>
     <body>
+    
 
 <form method="post" action="./" id="form1">
 
@@ -77,7 +78,7 @@
               <div class="col-lg-6 col-md-6 col-sm-4 logo hidden-xs padLefRight0">
                   <div class="col-lg-10 col-lg-offset-4 col-md-10 col-md-offset-4 col-sm-18 col-sm-offset-0 padLefRight0">
                       <a href="index.aspx" class="text-center logoSm" id="logo">
-                        <img src="<?php echo asset('images/logo.svg'); ?>" alt="logo" />
+                        <!-- <img src="<?php //echo asset('images/logo.svg'); ?>" alt="logo" /> -->
 
                       </a>
                   </div>
@@ -115,8 +116,6 @@
                           </div>
                           <div class="clear"></div>
 
-
-
                           <div class="secondaryNav col-lg-18 col-md-18 col-sm-18">
                               <div class="pull-right padLefRight0 col-lg-12 col-md-12 col-sm-12">
                                   <a href="index.aspx#contact" class=" col-lg-4 col-md-4 col-sm-4">CONTACT</a>
@@ -124,11 +123,6 @@
                                   <a href="Residents.aspx" class=" col-lg-4 col-md-4 col-sm-4">RESIDENTS</a>
                                   <a href="FAQs.aspx" class=" col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">FAQs</a>
                               </div>
-
-
-
-
-
                           </div>
 
 
@@ -156,7 +150,7 @@
           <div class="col-xs-16 col-xs-offset-2 extraSmallHeader visible-xs">University House Fullerton</div>
           <div class="col-xs-4 visible-xs logo padLefRight0">
               <a href="index.aspx">
-                  <img src="http://www.universityhouse.com/theme/images/logo.svg" alt="" /></a>
+                  <img src="<?php echo asset('images/logo.svg'); ?>" alt="logo" /></a>
           </div>
           <!--HEADER -->
           <div class="clearfix"></div>
