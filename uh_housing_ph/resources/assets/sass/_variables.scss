@@ -4,6 +4,14 @@ $body-bg: #f5f8fa;
 $body-margin: 0;
 $body-padding: 0;
 
+// Page Container
+
+$page-width: 1200px;
+$page-margin: 0 auto;
+$page-pos: relative;
+
+// Header
+
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
 $list-group-border: $laravel-border-color;

@@ -67,7 +67,7 @@
     </head>
     <body>
 
-
+<div id="page">
 <form method="post" action="./" id="form1">
 
       <div class="mainContainer">
@@ -570,5 +570,6 @@
       </div>
 
 </form>
+</div><!-- page -->
     </body>
 </html>

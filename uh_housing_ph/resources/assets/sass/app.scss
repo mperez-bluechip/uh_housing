@@ -20,4 +20,9 @@ body {
   font-weight: $font-weight;
 }
 
-#page { max-width: 1200px; margin: 0 auto; position: relative;}
+#page {
+  width: $page-width;
+  margin: $page-margin;
+  position: $page-pos;
+
+}
