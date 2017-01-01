@@ -151,7 +151,7 @@
           <div class="col-xs-16 col-xs-offset-2 extraSmallHeader visible-xs">University House Fullerton</div>
           <div class="col-xs-4 visible-xs logo padLefRight0">
               <a href="index.aspx">
-                  <img src="<?php echo asset('images/logo.svg'); ?>" alt="logo" /></a>
+                  <img src="<?php //echo asset('images/logo.svg'); ?>" alt="logo" /></a>
           </div>
           <!--HEADER -->
           <div class="clearfix"></div>
