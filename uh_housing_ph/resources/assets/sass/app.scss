@@ -10,13 +10,14 @@
 
 
 body {
-  $body-margin;
-  $body-padding;
-  $font-family;
-  $font-size-base;
-  $line-height-base;
-  $text-color;
-  $font-weight;
+  background: $body-bg;
+  margin: $body-margin;
+  padding: $body-padding;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  font-weight: $font-weight;
 }
 
 #page { max-width: 1200px; margin: 0 auto; position: relative;}

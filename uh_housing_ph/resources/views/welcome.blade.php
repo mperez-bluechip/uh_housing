@@ -63,9 +63,10 @@
                 margin-bottom: 30px;
             }
         </style>
+        <link rel="stylesheet" type="text/css" href="<?php echo asset('css/app.css'); ?>">
     </head>
     <body>
-    
+
 
 <form method="post" action="./" id="form1">
 
