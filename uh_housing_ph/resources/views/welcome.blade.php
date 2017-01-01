@@ -77,7 +77,7 @@
               <div class="col-lg-6 col-md-6 col-sm-4 logo hidden-xs padLefRight0">
                   <div class="col-lg-10 col-lg-offset-4 col-md-10 col-md-offset-4 col-sm-18 col-sm-offset-0 padLefRight0">
                       <a href="index.aspx" class="text-center logoSm" id="logo">
-                          <img src="<?php echo asset('images/logo.svg'); ?>" alt="logo" />
+                        <img src="<?php echo asset('images/logo.svg'); ?>" alt="logo" />
 
                       </a>
                   </div>
