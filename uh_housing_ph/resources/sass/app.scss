@@ -24,5 +24,13 @@ body {
   width: $page-width;
   margin: $page-margin;
   position: $page-pos;
+}
 
+nav {
+  background-color: $nav-bg-color;
+  position: $nav-pos; 
+  top: $nav-top;
+  left: $nav-left;
+  padding: $nav-padding;
+  width: $nav-width;
 }

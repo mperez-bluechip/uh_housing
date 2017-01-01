@@ -1,18 +1,32 @@
 {
-  "private": true,
-  "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+  "name": "universityhouse",
+  "version": "0.0.1",
+  "description": "Sample housing site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mperez-bluechip/uh_housing.git"
   },
+  "author": "Manny Perez",
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.2",
+    "clean-css": "^3.4.20",
     "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-coffee": "^2.3.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-connect-php": "0.0.8",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngcrush": "^5.0.0",
     "jquery": "^3.1.0",
-    "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-vue-2": "^0.2.0",
-    "laravel-elixir-webpack-official": "^1.0.2",
-    "lodash": "^4.16.2",
-    "vue": "^2.0.1",
-    "vue-resource": "^1.0.3"
+    "mustache": "^2.2.1"
   }
 }
