@@ -73,64 +73,45 @@
       <div class="mainContainer">
 
 
-          <div class="mainNavigation">
-
-              <!--Logo-->
-              <div class="col-lg-6 col-md-6 col-sm-4 logo hidden-xs padLefRight0">
-                  <div class="col-lg-10 col-lg-offset-4 col-md-10 col-md-offset-4 col-sm-18 col-sm-offset-0 padLefRight0">
-                      <a href="index.aspx" class="text-center logoSm" id="logo">
-                        <!-- <img src="<?php //echo asset('images/logo.svg'); ?>" alt="logo" /> -->
-
-                      </a>
-                  </div>
-                  <div class="clear"></div>
-
-              </div>
-              <!--Logo-->
-
-              <!--Navigation bar -->
-              <nav class="navbar navbar-default hidden-xs">
-
-                  <div class="container-fluid col-lg-18 col-md-18 col-sm-18">
-
-                      <div class="navbar-header ">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                          </button>
-                      </div>
 
 
+<!--First Level Nav -->
+<nav>
+  <ul>
+    <li>
+      <a title="Amenities" href="#" aria-haspopup="true">Amenities</a>
+    </li>
+    <li>
+      <a title="Features" href="#" aria-haspopup="true" >Features</a>
+    </li>
+    <li>
+      <a title="Floorplans" href="#" aria-haspopup="true">Floorplans</a>
+    </li>
+    <li>
+      <a title="Apply" href="#">Apply</a>
+    </li>
+  </ul>
+</nav>
+<!--/First Level Nav -->
+<!--Second Level Nav-->
+<nav>
+  <ul>
+    <li>
+      <a title="Contact" href="#" aria-haspopup="true">Contact</a>
+    </li>
+    <li>
+      <a title="Gallery" href="#" aria-haspopup="true" >Galley</a>
+    </li>
+    <li>
+      <a title="Residents" href="#" aria-haspopup="true">Residents</a>
+    </li>
+    <li>
+      <a title="FAQS" href="#">FAQS</a>
+    </li>
+  </ul>
+</nav>
+<!--/Second Level Nav -->
 
-                      <div id="navbar" class=" navbar-collapse collapse">
-
-                          <div class="col-lg-18 padLefRight0 col-md-18 col-sm-18">
-
-                              <div class="primaryNav pull-right padLefRight0 col-lg-12 col-md-12 col-sm-12">
-                                  <a href="Amenities.aspx" class="active-amen col-lg-4 col-md-4 col-sm-4">AMENITIES</a>
-                                  <a href="Features.aspx" class="active-feature  col-lg-4 col-md-4 col-sm-4">FEATURES</a>
-                                  <a href="Floorplans.aspx" class="active-plan  col-lg-4  col-md-4 col-sm-4">FLOORPLANS</a>
-                                  <a href="https://apply.thesciongroup.com/UHFullerton/form.html"  class="active-apply col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">APPLY</a>
-                              </div>
-                          </div>
-                          <div class="clear"></div>
-
-                          <div class="secondaryNav col-lg-18 col-md-18 col-sm-18">
-                              <div class="pull-right padLefRight0 col-lg-12 col-md-12 col-sm-12">
-                                  <a href="index.aspx#contact" class=" col-lg-4 col-md-4 col-sm-4">CONTACT</a>
-                                  <a href="Gallery.aspx" class=" col-lg-4 col-md-4 col-sm-4">GALLERY</a>
-                                  <a href="Residents.aspx" class=" col-lg-4 col-md-4 col-sm-4">RESIDENTS</a>
-                                  <a href="FAQs.aspx" class=" col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">FAQs</a>
-                              </div>
-                          </div>
-
-
-                      </div>
-
-                      <!--/.nav-collapse -->
-                  </div>
 
 
 
