@@ -7,36 +7,46 @@ $body-padding: 0;
 // Page Container
 $page-width: 1200px;
 $page-margin: 0 auto;
-$page-pos: relative;
+
+// Palette
+
+$white: #fff;
+$maroon: #6d0911;
+$dk-maroon: #2b0306;
+
+// Percetages
+
+$full-per: 100%;
+
+// Positions
+
+$abs: absolute;
+$rel: relative;
+
+// Displays
+
+$none: none;
+$block: block;
+
+// Pixel Palette
+
+$zero-px: 0px;
 
 // Header
 
 // Navigation
 $nav-bg-color: rgba(0,0,0,0);
-$nav-pos: absolute;
 $nav-top: 0;
 $nav-left: 0;
 $nav-padding: 50px 0 0 0;
 $nav-width: 100%;
-$nav-ul-list: none;
 $nav-ul-mar: 0;
 $nav-ul-pad: 0;
-$nav-ul-li-bg: #2b0306;
-$nav-ul-li-bg-ul-block: block;
+$nav-ul-li-a-dis: inline-block;
+$nav-ul-li-a-pad: 10px 20px;
 
-// Borders
-$laravel-border-color: darken($body-bg, 10%);
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
-
-// Brands
-$brand-primary: #3097D1;
-$brand-info: #8eb4cb;
-$brand-success: #2ab27b;
-$brand-warning: #cbb956;
-$brand-danger:  #bf5329;
+$nav-ul-li-a-wid: 125px;
+$nav-ul-li-a-pos: relative;
 
 // Typography
 $font-family: 'Open Sans', sans-serif;
@@ -45,16 +55,7 @@ $line-height-base: 1.6;
 $text-color: #555;
 $font-weight: 300;
 
-// Navbar
-$navbar-default-bg: #fff;
-
 // Buttons
-$btn-default-color: $text-color;
 
 // Inputs
-$input-border: lighten($text-color, 40%);
-$input-border-focus: lighten($brand-primary, 25%);
-$input-color-placeholder: lighten($text-color, 30%);
-
-// Panels
-$panel-default-heading-bg: #fff;
+// $input-border: lighten($text-color, 40%);

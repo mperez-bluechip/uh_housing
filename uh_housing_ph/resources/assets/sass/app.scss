@@ -21,14 +21,14 @@ body {
 #page {
   width: $page-width;
   margin: $page-margin;
-  position: $page-pos;
+  position: $rel;
 }
 
 // Navigation
 
 nav {
   background-color: $nav-bg-color;
-  position: $nav-pos;
+  position: $abs;
   top: $nav-top;
   left: $nav-left;
   padding: $nav-padding;
@@ -37,6 +37,33 @@ nav {
 
 nav::after { content:''; display: block; clear: both; }
 
-nav ul { list-style: $nav-ul-list; margin: $nav-ul-mar; padding: $nav-ul-pad; }
-nav ul li:hover { background-color: $nav-ul-li-bg; }
-nav ul li:hover > ul { display: $nav-ul-li-bg-ul-block; }
+nav ul { list-style: $none; margin: $nav-ul-mar; padding: $nav-ul-pad; }
+nav ul li:hover { background-color: $dk-maroon; }
+nav ul li:hover > ul { display: $block; }
+
+nav ul li a {
+  display: $nav-ul-li-a-dis;
+  color: $white;
+  padding: $nav-ul-li-a-pad;
+  text-decoration: $none;
+  width: $nav-ul-li-a-wid;
+  position: $nav-ul-li-a-pos;
+}
+
+nav ul li a:visited { color: $white; }
+nav ul li a:hover { background-color: $maroon; }
+nav ul ul { position: $abs; top: $full-per; background-color: $dk-maroon; display: $none; }
+nav ul ul li { position: $rel; }
+nav ul ul ul { left: $full-per; top: $zero-px; }
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left; }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
+nav a[aria-haspopup="true"]::after {
+  content: '';
+  display: $block; width: $zero-px; height: $zero-px;
+  position: $abs;
+  top: 16px; right: 15px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid $white;
+}
