@@ -5,9 +5,7 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+// Global
 
 body {
   background: $body-bg;
@@ -26,11 +24,19 @@ body {
   position: $page-pos;
 }
 
+// Navigation
+
 nav {
   background-color: $nav-bg-color;
-  position: $nav-pos; 
+  position: $nav-pos;
   top: $nav-top;
   left: $nav-left;
   padding: $nav-padding;
   width: $nav-width;
 }
+
+nav::after { content:''; display: block; clear: both; }
+
+nav ul { list-style: $nav-ul-list; margin: $nav-ul-mar; padding: $nav-ul-pad; }
+nav ul li:hover { background-color: $nav-ul-li-bg; }
+nav ul li:hover > ul { display: $nav-ul-li-bg-ul-block; }
