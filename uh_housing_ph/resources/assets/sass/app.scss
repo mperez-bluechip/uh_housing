@@ -36,10 +36,18 @@ nav {
   z-index: 1;
 }
 
-nav::after { content:''; display: block; clear: both; }
+// nav:nth-child(2) {
+//   background-color: $nav-bg-color;
+//   position: $abs;
+//   top: $nav-top;
+//   left: $nav-left;
+//   width: $nav-width;
+//   z-index: 1;
+//   padding: $nav2-padding;
+// }
 
-nav ul { list-style: $none; margin: $nav-ul-mar; padding: $nav-ul-pad; }
-nav ul li:hover { background-color: $dk-maroon; }
+nav ul { list-style: $none; margin-right: $nav-ul-mar-rt; padding: $nav-ul-pad; }
+nav ul li:hover { background-color: $dk-alpha; }
 nav ul li:hover > ul { display: $block; }
 
 nav ul li a {
@@ -52,17 +60,16 @@ nav ul li a {
 }
 
 nav ul li a:visited { color: $white; }
-nav ul li a:hover { background-color: $maroon; }
-nav ul ul { position: $abs; top: $full-per; background-color: $dk-maroon; display: $none; }
+nav ul ul { position: $abs; top: $full-per; }
+nav ul:nth-child(2) { clear: right; }
 nav ul ul li { position: $rel; }
 nav ul ul ul { left: $full-per; top: $zero-px; }
-nav > ul { padding-left: 200px; }
-nav > ul > li { float: left; }
-nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
+nav > ul > li { float: left; width: 150px; }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; font-size: 1.5em; }
 
 // Header
 
-header { height: 430px; position: $rel; }
+header { height: 516px; position: $rel; }
 header a.logo {
   z-index: 1;
   position: $abs;
@@ -74,5 +81,4 @@ header a.logo {
 // Section
 
 section { padding: $zero-px 30px; }
-section::after { content:''; display: $block; clear: both; }
 section.video { margin-top: 20px; margin-bottom: 30px; padding: $zero-px; }

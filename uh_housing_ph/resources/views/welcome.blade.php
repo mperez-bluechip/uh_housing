@@ -3,9 +3,9 @@
 
 <div id="page">
 
-<!--First Level Nav -->
+<!-- Nav -->
 <nav>
-  <ul>
+  <ul class="pull-right">
     <li>
       <a title="Amenities" href="#" aria-haspopup="true">Amenities</a>
     </li>
@@ -19,16 +19,12 @@
       <a title="Apply" href="#">Apply</a>
     </li>
   </ul>
-</nav>
-<!--/First Level Nav -->
-<!--Second Level Nav-->
-<!-- <nav>
-  <ul>
+  <ul class="pull-right">
     <li>
       <a title="Contact" href="#" aria-haspopup="true">Contact</a>
     </li>
     <li>
-      <a title="Gallery" href="#" aria-haspopup="true" >Galley</a>
+      <a title="Gallery" href="#" aria-haspopup="true" >Gallery</a>
     </li>
     <li>
       <a title="Residents" href="#" aria-haspopup="true">Residents</a>
@@ -37,8 +33,8 @@
       <a title="FAQS" href="#">FAQS</a>
     </li>
   </ul>
-</nav> -->
-<!--/Second Level Nav -->
+</nav>
+<!-- /Nav -->
 
 <header>
 
@@ -78,17 +74,17 @@
 
 </header>
 
-<section class="video">
+<!-- <section class="video">
   <p>VIDEO SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>
-</section>
-<section class="products-section">
+</section> -->
+<!-- <section class="products-section">
   <p>PRODUCTS SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>
-</section>
+</section> -->
 
 <!--Contact section-->
-<section class="contact-section">
+<!-- <section class="contact-section">
   <p>CONTACT SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>
-</section>
+</section> -->
 
 </div><!-- page -->
 

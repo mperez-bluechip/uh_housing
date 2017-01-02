@@ -5,14 +5,14 @@ $body-margin: 0;
 $body-padding: 0;
 
 // Page Container
-$page-width: 1200px;
+$page-width: 1400px;
 $page-margin: 0 auto;
 
 // Palette
 
 $white: #fff;
 $maroon: #6d0911;
-$dk-maroon: #2b0306;
+$dk-alpha: rgba(0,0,0,.2);
 $reddish: #cf0004;
 $nav-bg-color: rgba(0,0,0,.5);
 
@@ -39,9 +39,9 @@ $zero-px: 0px;
 // Navigation
 $nav-top: 0;
 $nav-left: 0;
-$nav-padding: 50px 0 0 0;
+$nav-padding: 0;
 $nav-width: 100%;
-$nav-ul-mar: 0;
+$nav-ul-mar-rt: 150px;
 $nav-ul-pad: 0;
 $nav-ul-li-a-dis: inline-block;
 $nav-ul-li-a-pad: 10px 20px;
