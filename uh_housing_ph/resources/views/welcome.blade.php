@@ -19,6 +19,7 @@
       <a title="Apply" href="#">Apply</a>
     </li>
   </ul>
+
   <ul class="pull-right">
     <li>
       <a title="Contact" href="#" aria-haspopup="true">Contact</a>
@@ -34,6 +35,7 @@
     </li>
   </ul>
 </nav>
+
 <!-- /Nav -->
 
 <header>

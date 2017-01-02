@@ -33,18 +33,9 @@ nav {
   left: $nav-left;
   padding: $nav-padding;
   width: $nav-width;
+  max-height: 130px;
   z-index: 1;
 }
-
-// nav:nth-child(2) {
-//   background-color: $nav-bg-color;
-//   position: $abs;
-//   top: $nav-top;
-//   left: $nav-left;
-//   width: $nav-width;
-//   z-index: 1;
-//   padding: $nav2-padding;
-// }
 
 nav ul { list-style: $none; margin-right: $nav-ul-mar-rt; padding: $nav-ul-pad; }
 nav ul li:hover { background-color: $dk-alpha; }
@@ -59,10 +50,13 @@ nav ul li a {
   position: $nav-ul-li-a-pos;
 }
 
+nav ul li a:hover { color: $color-hov; }
+
 nav ul li a:visited { color: $white; }
 nav ul ul { position: $abs; top: $full-per; }
 nav ul:nth-child(2) { clear: right; }
 nav ul ul li { position: $rel; }
+nav  ul:first-child li:last-child { background-color: $last-li; text-align: center; }
 nav ul ul ul { left: $full-per; top: $zero-px; }
 nav > ul > li { float: left; width: 150px; }
 nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; font-size: 1.5em; }
