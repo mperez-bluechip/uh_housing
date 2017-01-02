@@ -67,3 +67,27 @@ nav a[aria-haspopup="true"]::after {
   border-bottom: 4px solid transparent;
   border-left: 4px solid $white;
 }
+nav > ul > li > a[aria-haspopup="true"]::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid $white;
+  left: 20px; right: auto;
+  bottom: 6px; top: auto;
+}
+
+// Header
+
+header { height: 430px; background: $reddish; position: $rel; }
+header a.logo {
+  z-index: 1;
+  position: $abs;
+  display: $block; width: 160px; height: 66px;
+  background: url(../images/logo.svg) no-repeat 0 0; background-size: contain;
+  top: 15px; left: 20px;
+}
+
+// Section
+
+section { padding: $zero-px 30px; }
+section::after { content:''; display: $block; clear: both; }
+section.video { margin-top: 20px; margin-bottom: 30px; padding: $zero-px; }

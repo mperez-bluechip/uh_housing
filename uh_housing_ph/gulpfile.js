@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     jsonminify = require('gulp-jsonminify'),
     imagemin = require('gulp-imagemin'),
     pngcrush = require('imagemin-pngcrush'),
+    bootstrap = require('bootstrap'),
     concat = require('gulp-concat');
 
     var env,
@@ -39,7 +40,8 @@ var gulp = require('gulp'),
 coffeeSources = ['resources/coffee/tagline.coffee'];
 jsSources = [
   'resources/scripts/jquery.easing.1.3.js',
-  'resources/scripts/main.js'
+  'resources/scripts/main.js',
+  'resources/js/bootstrap.js'
 ];
 sassSources = ['resources/assets/sass/app.scss'];
 cssSources = ['resources/css/animate.css',
