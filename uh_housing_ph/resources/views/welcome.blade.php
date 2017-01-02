@@ -39,7 +39,7 @@
 <!-- /Nav -->
 
 <header>
-
+  <a class="logo" title"Univerity Logo" href="#"></a>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
