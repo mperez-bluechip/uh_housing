@@ -48,25 +48,20 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img_chania.jpg" alt="Chania">
+      <img src="<?php echo asset('images/mainslide-1.jpg'); ?>" alt="Students">
     </div>
 
     <div class="item">
-      <img src="img_chania2.jpg" alt="Chania">
+      <img src="<?php echo asset('images/mainslide-2.jpg'); ?>" alt="Housing">
     </div>
 
     <div class="item">
-      <img src="img_flower.jpg" alt="Flower">
-    </div>
-
-    <div class="item">
-      <img src="img_flower2.jpg" alt="Flower">
+      <img src="<?php echo asset('images/mainslide-3.jpg'); ?>" alt="Smiley Faces">
     </div>
   </div>
 
