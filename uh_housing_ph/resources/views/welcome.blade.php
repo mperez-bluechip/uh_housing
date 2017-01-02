@@ -1,70 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>University Housing</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-        <link rel="stylesheet" type="text/css" href="<?php echo asset('css/app.css'); ?>">
-    </head>
+@include('header')
     <body>
 
 <div id="page">
@@ -107,33 +41,45 @@
 <!--/Second Level Nav -->
 
 <header>
-  
-  <!-- carousel -->
-  <div class="carousel fade" data-ride="carousel" id="featured">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
-  <!-- carousel inner -->
-  <div class="carousel-inner fullheight">
-    <div class="item"><img src="img/image_1.jpg" alt="image 1"></div>
-    <div class="item"><img src="img/image_2.jpg" alt="image 2"></div>
-    <div class="item"><img src="img/image_3.jpg" alt="image 3"></div>
-    <div class="item"><img src="img/image_4.jpg" alt="image 4"></div>
-    <div class="item"><img src="img/image_5.jpg" alt="image 5"></div>
-    <div class="item"><img src="img/image_6.jpg" alt="image 6"></div>
-    <div class="item"><img src="img/image_7.jpg" alt="image 7"></div>
-    <div class="item"><img src="img/image_9.jpg" alt="image 9"></div>
-    <div class="item"><img src="img/image_12.jpg" alt="image 12"></div>
-    <div class="item"><img src="img/image_13.jpg" alt="image 13"></div>
-    <div class="item"><img src="img/image_17.jpg" alt="image 17"></div>
-    <div class="item"><img src="img/image_18.jpg" alt="image 18"></div>
-  </div><!-- /carousel-inner -->
-  <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img_chania.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_chania2.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_flower.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img_flower2.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#featured" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
   </a>
-</div><!-- /carousel -->
+</div>
 
 </header>
 
@@ -150,5 +96,7 @@
 </section>
 
 </div><!-- page -->
+
+@include('footer')
 </body>
 </html>

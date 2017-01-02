@@ -9,7 +9,6 @@
   },
   "author": "Manny Perez",
   "devDependencies": {
-    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.2",
     "clean-css": "^3.4.20",
     "gulp": "^3.9.1",

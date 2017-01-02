@@ -77,7 +77,7 @@ nav > ul > li > a[aria-haspopup="true"]::after {
 
 // Header
 
-header { height: 430px; background: $reddish; position: $rel; }
+header { height: 430px; position: $rel; }
 header a.logo {
   z-index: 1;
   position: $abs;
