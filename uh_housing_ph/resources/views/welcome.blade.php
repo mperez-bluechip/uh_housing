@@ -91,18 +91,21 @@
 <section class="row products">
   <aside class="col-md-4">
     <div class="content amenities">
-    <h3>AMENITIES</h3>
+      <a title="Amenities" href="http://uhfullerton.com/Amenities.aspx"><img src="<?php echo asset('images/image_amenities.png'); ?>"></a>
+      <h3>AMENITIES</h3>
     </div>
 
   </aside>
   <aside class="col-md-4">
     <div class="content features">
+      <a title="Amenities" href="http://uhfullerton.com/Features.aspx"><img src="<?php echo asset('images/image_features.png'); ?>"></a>
       <h3>FEATURES</h3>
     </div>
 
   </aside>
   <aside class="col-md-4">
     <div class="content floorplans">
+    <a title="Amenities" href="http://uhfullerton.com/Floorplans.aspx"><img src="<?php echo asset('images/image_floorplans.png'); ?>"></a>
       <h3>FLOORPLANS</h3>
     </div>
 
@@ -111,6 +114,31 @@
 </section>
 
 <!-- /Products -->
+
+<!-- Contact Us  -->
+<section class="row contact">
+  <aside class="col-md-2">
+    <div class="content title">
+      <h3>CONTACT US</h3>
+    </div>
+
+  </aside>
+  <aside class="col-md-6">
+    <div class="content form">
+      FORM
+    </div>
+
+  </aside>
+  <aside class="col-md-4">
+    <div class="content info">
+      INFO
+    </div>
+
+  </aside>
+
+</section>
+
+<!-- /Contact Us -->
 
 <!--Contact section-->
 <!-- <section class="contact-section">

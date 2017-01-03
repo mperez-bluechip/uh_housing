@@ -63,7 +63,7 @@ nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; font-size: 1.5em;
 
 // Header
 
-header { height: 516px; position: $rel; }
+header { height: 450px; position: $rel; }
 header a.logo {
   z-index: 1;
   position: $abs;
@@ -100,7 +100,7 @@ section.video h3{
   height: 80px;
   background-color: $med-blu;
   padding-top: .2em;
-  color: #fff;
+  color: $white;
   height: 41px;
 }
 article.video-frame {
@@ -109,11 +109,25 @@ article.video-frame {
 }
 
 // Products Section
+
 section.products { padding: 0; }
-section.products aside { padding: 0;}
-section.products aside .content.amenities { background: url(../images/image_amenities.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
-section.products aside .content.features { background: url(../images/image_features.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
-section.products aside .content.floorplans { background: url(../images/image_floorplans.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
-section.products aside .content.amenities h3 { position: absolute; }
-section.products aside .content.features h3 { position: absolute; }
-section.products aside .content.floorplans h3 { position: absolute; }
+section.products aside { padding: 0; }
+section.products div.amenities a img{ width: 445px; height: 431px; position: relative; }
+section.products div.features a img{ width: 445px; height: 431px; position: relative; }
+section.products div.floorplans a img{ width: 445px; height: 431px; position: relative; }
+section.products aside .content.amenities h3 { position: $abs; }
+section.products aside .content.features h3 { position: $abs; }
+section.products aside .content.floorplans h3 { position: $abs; }
+section.products aside h3 { top: 87%; left: 40%; color: $olive; font-size: 2em; }
+
+// Contact Section
+
+section.contact { padding: 0; height: 900px; }
+section.contact aside { padding: 0; position: $rel; height: 100%; }
+section.contact aside:first-child { width: 11%; }
+section.contact aside h3 { position: $abs; left: 0; top: 200px; left: -110px; }
+section.contact aside .content.title h3:first-child { transform: rotate($rot-minus-90); color: $gry-blu; font-size: .8em; width: 430px; }
+section.contact aside div.form { background: $gry-blu; height: 100%; }
+section.contact aside div.info { background: $lt-gry-blu; height: 100%; }
+section.contact aside .content.form h3 { color: #fff; }
+section.contact aside div.title { height: 100%; background: $dk-blu;  }
