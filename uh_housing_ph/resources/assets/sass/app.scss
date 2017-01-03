@@ -76,6 +76,7 @@ header a.logo {
 // Section
 
 section { padding: $zero-px 30px; }
+section { content:''; display: block; clear: both;}
 
 // Video Section
 
@@ -103,6 +104,16 @@ section.video h3{
   height: 41px;
 }
 article.video-frame {
-  background: url(../images/video-img.jpg) no-repeat; background-size: 1400px;
-  height: 519px;
+  background: url(../images/video-img.jpg) no-repeat; background-size: cover;
+  height: 500px;
 }
+
+// Products Section
+section.products { padding: 0; }
+section.products aside { padding: 0;}
+section.products aside .content.amenities { background: url(../images/image_amenities.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
+section.products aside .content.features { background: url(../images/image_features.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
+section.products aside .content.floorplans { background: url(../images/image_floorplans.png) no-repeat; background-size: 453px; height: 452px; position: relative; }
+section.products aside .content.amenities h3 { position: absolute; }
+section.products aside .content.features h3 { position: absolute; }
+section.products aside .content.floorplans h3 { position: absolute; }

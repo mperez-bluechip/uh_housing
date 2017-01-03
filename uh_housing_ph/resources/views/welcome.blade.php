@@ -76,19 +76,46 @@
 
 </header>
 
-<section class="video">
+<!-- Video -->
+
+<section class="row video">
   <h1>YOU SHOULD LIVE HERE</h1>
   <h3>1 BLOCK FROM CAL STATE FULLERTON </h3>
-  <article class="video-frame"></article>
+  <article class="col-md-12 video-frame"></article>
 </section>
-<!-- <section class="products-section">
-  <p>PRODUCTS SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>
+
+<!-- /Video -->
+
+<!-- Products -->
+
+<section class="row products">
+  <aside class="col-md-4">
+    <div class="content amenities">
+    <h3>AMENITIES</h3>
+    </div>
+
+  </aside>
+  <aside class="col-md-4">
+    <div class="content features">
+      <h3>FEATURES</h3>
+    </div>
+
+  </aside>
+  <aside class="col-md-4">
+    <div class="content floorplans">
+      <h3>FLOORPLANS</h3>
+    </div>
+
+  </aside>
+
 </section>
+
+<!-- /Products -->
 
 <!--Contact section-->
 <!-- <section class="contact-section">
   <p>CONTACT SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>
-</section> -->
+</section>
 
 </div><!-- page -->
 

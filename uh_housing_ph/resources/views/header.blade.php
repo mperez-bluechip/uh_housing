@@ -12,7 +12,7 @@
 
         <!-- scripts -->
         <script src="<?php echo asset('js/jquery-3.1.1.min.js'); ?>"></script>
-        <script src="<?php echo asset('js/bootstrap.min.js'); ?>"></script>
+        <!-- <script src="<?php //echo asset('js/bootstrap.min.js'); ?>"></script> -->
 
 
         <!-- Styles -->
