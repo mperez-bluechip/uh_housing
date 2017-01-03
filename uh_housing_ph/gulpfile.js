@@ -93,7 +93,7 @@ gulp.task('watch', function() {
   gulp.watch('resources/images/**/*.*', ['images']);
 });
 
-gulp.task('connect', function() {
+gulp.task('connect', function() { 
   connect.server({
     root: outputDir,
     livereload: true
