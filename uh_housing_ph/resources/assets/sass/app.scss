@@ -76,4 +76,29 @@ header a.logo {
 // Section
 
 section { padding: $zero-px 30px; }
+
+// Video Section
+
 section.video { margin-top: 20px; margin-bottom: 30px; padding: $zero-px; }
+section.video h1 {
+  text-transform: $uc;
+  background-color: $white;
+  font-size: 5em;
+  font-family: "Arial Narrow";
+  padding-left: 100px;
+  height: 67px;
+  color: $almost-blk;
+}
+section.video h3{
+  text-transform: $uc;
+  background-color: $white;
+  font-size: 2em;
+  font-family: "Arial Narrow";
+  text-align: center;
+  letter-spacing: 10px;
+  height: 80px;
+  background-color: $med-blu;
+  padding-top: .2em;
+  color: #fff;
+  height: 41px;
+}
