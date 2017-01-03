@@ -79,6 +79,7 @@
 <section class="video">
   <h1>YOU SHOULD LIVE HERE</h1>
   <h3>1 BLOCK FROM CAL STATE FULLERTON </h3>
+  <article class="video-frame"></article>
 </section>
 <!-- <section class="products-section">
   <p>PRODUCTS SECTION carry banjo meh wolf, messenger bag sustainable fingerstache lumbersexual. Mustache vexillologist street art, fam cardigan pork belly next level chillwave pug knausgaard brunch leggings keffiyeh woke tousled. Fingerstache vice ethical hot chicken chillwave. Before they sold out schlitz typewriter tattooed literally. Franzen post-ironic leggings unicorn biodiesel.</p>

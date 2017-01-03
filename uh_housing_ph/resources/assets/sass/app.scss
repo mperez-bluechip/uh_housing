@@ -79,7 +79,7 @@ section { padding: $zero-px 30px; }
 
 // Video Section
 
-section.video { margin-top: 20px; margin-bottom: 30px; padding: $zero-px; }
+section.video { margin-top: 20px; margin-bottom: 30px; padding: $zero-px; height: 360px; }
 section.video h1 {
   text-transform: $uc;
   background-color: $white;
@@ -101,4 +101,8 @@ section.video h3{
   padding-top: .2em;
   color: #fff;
   height: 41px;
+}
+article.video-frame {
+  background: url(../images/video-img.jpg) no-repeat; background-size: 1400px;
+  height: 519px;
 }
