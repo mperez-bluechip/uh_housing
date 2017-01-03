@@ -125,13 +125,12 @@
   </aside>
   <aside class="col-md-6">
     <div class="content form">
-      FORM
+      <p style="text-transform: uppercase; color: white; font-size: 1em;">include register form page here</p>
     </div>
-
   </aside>
   <aside class="col-md-4">
     <div class="content info">
-      INFO
+      <p style="color: #fff;">INFO</p>
     </div>
 
   </aside>

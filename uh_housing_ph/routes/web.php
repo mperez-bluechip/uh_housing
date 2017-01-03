@@ -22,3 +22,7 @@ Route::get('/footer', function () {
 Route::get('/header', function () {
     return view('header');
 });
+
+Route::get('/register', function () {
+    return view('register');
+});
